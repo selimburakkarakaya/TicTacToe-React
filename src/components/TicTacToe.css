@@ -1,0 +1,57 @@
+.container{
+    text-align: center;
+}
+
+.title{
+    margin-top: 50px;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title span{
+    padding-left: 15px;
+    color: aqua;
+}
+
+.title img{
+    padding: 20px 20px;
+    height: 50px;
+}
+
+.reset{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 100px;
+    background: #1f3540;
+    color: aqua;
+    font-size: 26px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.board{
+    margin: auto;
+    width: 564px;
+    height: 600px;
+    display: flex;
+}
+
+.boxes{
+    width: 180px;
+    height: 180px;
+    background: #1f3540;
+    display: flex;
+    border: 4px solid #192e38;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.boxes img{
+    margin: 50px 50px;
+}
